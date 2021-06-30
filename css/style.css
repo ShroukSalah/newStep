@@ -15,7 +15,7 @@ h4,
 h5,
 h6,
 a {
-    font-family: 'ElMessiri', sans-serif;
+    font-family: 'DINNextLT', sans-serif;
 }
 
 p {
@@ -31,6 +31,12 @@ p {
 @font-face {
     font-family: ElMessiri;
     src: url(../fonts/ElMessiri-Medium.ttf);
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: DINNextLT;
+    src: url(../fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf);
     /* font-weight: bold; */
 }
 
