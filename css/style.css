@@ -211,7 +211,6 @@ nav {
     right: 0;
 }
 
-.nav-item.active .nav-link,
 .nav-item .nav-link:hover {
     font-weight: 700;
     transform: translateY(-8px);
@@ -485,7 +484,7 @@ footer img {
                         media
                      ==================================== */
 
-@media(min-width: 768px) and (max-width: 1200px) {
+@media(min-width: 768px) and (max-width: 991px) {
     #homeHeader {
         width: 100%;
         min-height: 100%;
@@ -498,13 +497,38 @@ footer img {
         width: 100%;
     }
     .navbar-nav {
-        padding-top: 20px;
+        padding-top: 10px;
+    }
+    .nav-item.active .nav-link:before,
+    .nav-item .nav-link:hover:before {
+        content: "\f111";
+        position: absolute;
+        color: #6580CC;
+        bottom: -5px;
+        margin: auto;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 8px;
+        text-align: center;
+        left: auto;
+        right: -15px;
+        top: 15px;
+    }
+    .nav-item.active .nav-link,
+    .nav-item .nav-link:hover {
+        font-weight: 700;
+        transform: translateY(0px);
     }
 }
 
 @media(max-width: 768px) {
     .navbar-nav {
-        padding-top: 20px;
+        padding-top: 10px;
+    }
+    .nav-item.active .nav-link,
+    .nav-item .nav-link:hover {
+        font-weight: 700;
+        transform: translateY(0px);
     }
     .nav-item.active .nav-link:before,
     .nav-item .nav-link:hover:before {
