@@ -10,7 +10,7 @@ $(document).ready(function() {
             loop: true,
             center: true,
             margin: 20,
-            nav: true,
+            nav: false,
             dots: false,
             rtl: true,
             autoplay: true,
