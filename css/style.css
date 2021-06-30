@@ -482,7 +482,16 @@ footer img {
 
 /* =================================
                         media
-                     ==================================== */
+            ==================================== */
+
+@media(min-width: 991px) {
+    .contact-footer {
+        background-image: none;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
 
 @media(min-width: 768px) and (max-width: 991px) {
     #homeHeader {
