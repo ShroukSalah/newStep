@@ -75,7 +75,7 @@ button:focus {
 
  ::-webkit-scrollbar {
     width: 10px;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -83,7 +83,7 @@ button:focus {
 
  ::-webkit-scrollbar-track {
     background: #fff;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -91,7 +91,7 @@ button:focus {
 
  ::-webkit-scrollbar-thumb {
     background: #5990d0;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -99,7 +99,7 @@ button:focus {
 
  ::-webkit-scrollbar-thumb:hover {
     background: #bde9f5;
-    /* display: none; */
+    display: none;
 }
 
 .form-control:focus {
