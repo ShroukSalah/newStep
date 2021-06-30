@@ -22,6 +22,10 @@ p {
     font-family: 'Tajawal', sans-serif;
 }
 
+.title {
+    font-family: 'ElMessiri', sans-serif;
+}
+
 @font-face {
     font-family: Tajawal;
     src: url(../fonts/Tajawal-Regular.ttf);
