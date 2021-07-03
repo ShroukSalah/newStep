@@ -3,12 +3,14 @@ html {
 }
 
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'DINNextLT', sans-serif;
     word-break: break-word;
-    min-height: 100vh;
+    min-height: 125vh;
+    position: relative;
 }
 
-h1,
+
+/* h1,
 h2,
 h3,
 h4,
@@ -16,20 +18,15 @@ h5,
 h6,
 a {
     font-family: 'DINNextLT', sans-serif;
-}
+} */
 
 p {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'DINNextLT', sans-serif;
 }
 
-.title {
+.title,
+.ElMessiri {
     font-family: 'ElMessiri', sans-serif;
-}
-
-@font-face {
-    font-family: Tajawal;
-    src: url(../fonts/Tajawal-Regular.ttf);
-    /* font-weight: bold; */
 }
 
 @font-face {
@@ -40,7 +37,7 @@ p {
 
 @font-face {
     font-family: DINNextLT;
-    src: url(../fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf);
+    src: url(../fonts/ArbFONTS-DINNextLTArabic-Regular-2.ttf);
     /* font-weight: bold; */
 }
 
@@ -200,7 +197,7 @@ a:hover {
 
 #homeHeader {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #F8FAFF;
 }
 
@@ -471,12 +468,16 @@ footer {
     background-image: none;
 }
 
-.contact-footer img,
-footer img {
+.contact-footer .footerLogo,
+footer .footerLogo {
     width: 80px;
     /* padding: 10px; */
     /* height: 50px !important;
     width: 110px; */
+}
+
+footer .tel-img {
+    vertical-align: baseline;
 }
 
 
@@ -570,5 +571,13 @@ footer img {
     .swiper-container-rtl .swiper-button-next {
         left: 0;
         right: auto;
+    }
+    footer {
+        text-align: center !important;
+    }
+    footer .footerLogo {
+        display: block;
+        text-align: center;
+        margin: auto auto 10px;
     }
 }
